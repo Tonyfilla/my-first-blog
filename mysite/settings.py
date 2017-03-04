@@ -25,7 +25,7 @@ SECRET_KEY = 'rxm=_)1kx)h74ou)0mo(y*rmjlf0i=4t0wz103o+xe4$5ob#8k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tonyfilla.pythonanywhere.com']
 
 
 # Application definition
@@ -103,4 +103,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-ALLOWED_HOSTS = 'tonyfilla.pythonanywhere.com'
